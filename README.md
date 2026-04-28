@@ -46,7 +46,6 @@ To run the Streamlit application locally, the following files should be in the s
 
 - streamlit_app.py
 - best_churn_model.pkl
-- requirements.txt
 
 Then, run the following commands:
 
