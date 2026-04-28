@@ -39,4 +39,20 @@ Best model by F1-score in this run: **Random Forest**
 - `MIS308_Customer_Churn_Project_Report.docx`: Project report
 - `WA_Fn-UseC_-Telco-Customer-Churn.csv`: Dataset
 - `best_churn_model.pkl`: Saved best model pipeline
-- `figures/`: EDA and evaluation charts
+
+## Local Run Instructions
+
+To run the Streamlit application locally, the following files should be in the same folder:
+
+- streamlit_app.py
+- best_churn_model.pkl
+- requirements.txt
+
+Then, run the following commands:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+- 
